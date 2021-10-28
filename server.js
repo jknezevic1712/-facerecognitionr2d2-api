@@ -25,6 +25,14 @@ const database = {
       entries: 0,
       joined: new Date(),
     },
+    {
+      id: "122",
+      name: "Annie",
+      email: "annie@gmail.com",
+      password: "mangos",
+      entries: 0,
+      joined: new Date(),
+    },
   ],
 };
 
