@@ -1,7 +1,3 @@
-/* 
-! Different way of doing routes
-*/
-// const handleSignin = (req, res, db, bcrypt) => {
 const handleSignin = (db, bcrypt) => (req, res) => {
   const { email, password } = req.body;
 

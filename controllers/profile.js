@@ -1,8 +1,6 @@
 const handleProfileGet = (req, res, db) => {
   const { id } = req.params;
 
-  // In where statement you can just write where{{ id }} instead of where{{ id: id }} because they're both same
-
   db.select("*")
     .from("users")
     .where({ id })
